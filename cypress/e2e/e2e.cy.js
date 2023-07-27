@@ -25,10 +25,10 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         //Produto 1
         cy.adicionarProduto(prod[0],'M',2,'Blue');
         cy.abrirPaginaInicialProduto();
-        cy.abrirOutraPagina('10');
+        cy.abrirOutraPagina('12');
         cy.adicionarProduto(prod[1],'M',3,'White');
         cy.abrirPaginaInicialProduto();
-        cy.abrirOutraPagina('10');
+        cy.abrirOutraPagina('13');
         cy.adicionarProduto(prod[2],'M',4,'Yellow');
         cy.abrirCarrinho();
 
