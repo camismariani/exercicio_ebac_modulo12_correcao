@@ -17,7 +17,7 @@ pipeline {
             }
         }
         
-         stage('Executar Cypress') {
+         stage('Executar Cypress Teste EBAC Web') {
             steps {
                 nodejs('NodeJS') {
                     sh 'NO_COLOR=1 npx cypress run'
